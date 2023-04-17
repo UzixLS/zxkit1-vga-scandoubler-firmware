@@ -1,0 +1,143 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions
+# and other software and tools, and its AMPP partner logic
+# functions, and any output files from any of the foregoing
+# (including device programming or simulation files), and any
+# associated documentation or information are expressly subject
+# to the terms and conditions of the Altera Program License
+# Subscription Agreement, Altera MegaCore Function License
+# Agreement, or other applicable license agreement, including,
+# without limitation, that your use is for the sole purpose of
+# programming logic devices manufactured by Altera and sold by
+# Altera or its authorized distributors.  Please refer to the
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Web Edition
+# Date created = 11:17:07  July 22, 2009
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		VGA_PAL_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX3000A
+set_global_assignment -name DEVICE "EPM3128ATC100-10"
+set_global_assignment -name TOP_LEVEL_ENTITY scandoubler
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:17:07  JULY 22, 2009"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_1 -to B_IN
+set_location_assignment PIN_2 -to G_IN
+set_location_assignment PIN_5 -to R_IN
+set_location_assignment PIN_6 -to B_VIDEO
+set_location_assignment PIN_8 -to G_VIDEO
+set_location_assignment PIN_10 -to R_VIDEO
+set_location_assignment PIN_13 -to A[10]
+set_location_assignment PIN_14 -to A[11]
+set_location_assignment PIN_16 -to A[12]
+set_location_assignment PIN_17 -to A[13]
+set_location_assignment PIN_19 -to A[14]
+set_location_assignment PIN_20 -to D[8]
+set_location_assignment PIN_21 -to D[9]
+set_location_assignment PIN_22 -to D[10]
+set_location_assignment PIN_23 -to D[11]
+set_location_assignment PIN_24 -to A[9]
+set_location_assignment PIN_25 -to A[8]
+set_location_assignment PIN_27 -to A[7]
+set_location_assignment PIN_28 -to A[6]
+set_location_assignment PIN_29 -to A[5]
+set_location_assignment PIN_30 -to WE
+set_location_assignment PIN_31 -to D[7]
+set_location_assignment PIN_32 -to D[6]
+set_location_assignment PIN_35 -to D[5]
+set_location_assignment PIN_36 -to D[4]
+set_location_assignment PIN_37 -to D[3]
+set_location_assignment PIN_40 -to D[2]
+set_location_assignment PIN_41 -to D[1]
+set_location_assignment PIN_42 -to D[0]
+set_location_assignment PIN_44 -to A[4]
+set_location_assignment PIN_45 -to A[3]
+set_location_assignment PIN_46 -to A[2]
+set_location_assignment PIN_47 -to A[1]
+set_location_assignment PIN_48 -to A[0]
+set_location_assignment PIN_49 -to D[12]
+set_location_assignment PIN_50 -to D[13]
+set_location_assignment PIN_52 -to D[14]
+set_location_assignment PIN_54 -to D[15]
+set_location_assignment PIN_55 -to LB
+set_location_assignment PIN_56 -to UB
+set_location_assignment PIN_57 -to OE
+set_location_assignment PIN_58 -to A[15]
+set_location_assignment PIN_60 -to A[16]
+set_location_assignment PIN_61 -to A17
+set_location_assignment PIN_64 -to R_VGA
+set_location_assignment PIN_68 -to G_VGA
+set_location_assignment PIN_70 -to B_VGA
+set_location_assignment PIN_71 -to VSYNC_VGA
+set_location_assignment PIN_72 -to HSYNC_VGA
+set_location_assignment PIN_83 -to SYNC_VIDEO
+set_location_assignment PIN_84 -to SET_FK_OUT
+set_location_assignment PIN_85 -to SET_FK_IN
+set_location_assignment PIN_92 -to VGA_SCART
+set_location_assignment PIN_93 -to INVERSE_F14MHZ
+set_location_assignment PIN_94 -to INVERSE_SSI
+set_location_assignment PIN_96 -to INVERSE_KSI
+set_location_assignment PIN_97 -to INVERSE_RGBI
+set_location_assignment PIN_98 -to SSI_IN
+set_location_assignment PIN_99 -to KSI_IN
+set_location_assignment PIN_100 -to I_IN
+set_global_assignment -name STRATIXII_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name CYCLONE_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name STRATIX_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name MAXII_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name MAX7000_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name APEX20K_OPTIMIZATION_TECHNIQUE AREA
+set_location_assignment PIN_87 -to F14
+set_global_assignment -name RTLV_GROUP_RELATED_NODES OFF
+set_global_assignment -name AUTO_PARALLEL_EXPANDERS OFF
+set_global_assignment -name IGNORE_LCELL_BUFFERS ON
+set_global_assignment -name IGNORE_CASCADE_BUFFERS ON
+set_global_assignment -name MAX7000_FANIN_PER_CELL 50
+set_location_assignment PIN_7 -to I_VIDEO[2]
+set_location_assignment PIN_9 -to I_VIDEO[1]
+set_location_assignment PIN_12 -to I_VIDEO[0]
+set_location_assignment PIN_63 -to I_VGA[0]
+set_location_assignment PIN_67 -to I_VGA[1]
+set_location_assignment PIN_69 -to I_VGA[2]
+set_location_assignment PIN_81 -to F14_2
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS OFF
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name TIMEQUEST_DO_REPORT_TIMING ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL OFF
+set_global_assignment -name SAVE_DISK_SPACE OFF
+set_global_assignment -name VERILOG_FILE scandoubler.v
+set_global_assignment -name SDC_FILE clocks.sdc
+set_global_assignment -name ALLOW_POWER_UP_DONT_CARE OFF
