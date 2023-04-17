@@ -1,0 +1,22 @@
+## Quartus
+/db/
+/incremental_db/
+/output_files/
+/*.dpf
+/*.cdf
+/*.qws
+/*.srf
+
+## Testbench
+/ivl_vhdl_work/
+/work/
+/*.gtkw
+/*.vcd
+/*.bin
+/*.mem
+
+## Etc.
+*.bak
+*~
+*.sublime-*
+.vscode/
