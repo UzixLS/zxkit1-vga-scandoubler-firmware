@@ -95,7 +95,8 @@ set_location_assignment PIN_68 -to G_VGA
 set_location_assignment PIN_70 -to B_VGA
 set_location_assignment PIN_71 -to VSYNC_VGA
 set_location_assignment PIN_72 -to HSYNC_VGA
-set_location_assignment PIN_83 -to SYNC_VIDEO
+set_location_assignment PIN_83 -to F28o
+set_location_assignment PIN_90 -to F28
 set_location_assignment PIN_84 -to SET_FK_OUT
 set_location_assignment PIN_85 -to SET_FK_IN
 set_location_assignment PIN_92 -to VGA_SCART

@@ -15,3 +15,5 @@ Jumpers:
 * VGA_SCART - no effect
 * SET_FK_IN - no effect
 * SET_FK_OUT - no effect
+
+**PCB modification:** to get this firmware working you need to bridge CPLD pin 90 and pin 83.

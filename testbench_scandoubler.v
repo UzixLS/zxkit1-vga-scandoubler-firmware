@@ -53,6 +53,8 @@ initial begin
 end
 assign d = n_ramwr? ram_q0 : {16{1'bz}};
 
+
+wire clk28;
 scandoubler scandoubler1(
     .R_IN(1'b1),
     .G_IN(1'b1),
@@ -62,6 +64,8 @@ scandoubler scandoubler1(
     .SSI_IN(csync),
     .F14(clk14),
     .F14_2(clk14_2),
+    .F28o(clk28),
+    .F28(clk28),
     .INVERSE_RGBI(1'b1),
     .INVERSE_KSI(1'b1),
     .INVERSE_SSI(1'b1),
@@ -79,7 +83,7 @@ scandoubler scandoubler1(
     .G_VIDEO(),
     .B_VIDEO(),
     .I_VIDEO(),
-    .SYNC_VIDEO(),
+    // .SYNC_VIDEO(),
     .A17(ram_addr_a[17]),
     .A(ram_addr_a[16:0]),
     .WE(n_ramwr),
@@ -94,7 +98,7 @@ initial begin
     $dumpvars();
     rst_n = 0;
     #5 rst_n = 1;
-    #2100000 $finish;
+    // #2100000 $finish;
     #21000000 $finish;
 end
 
